@@ -13,8 +13,6 @@ html(lang="en")
         div.form-row
           select#features(name="features")
             option(value="" selected disabled)
-            each service in services
-              option(value=service.id)= service.name
           button(type="submit") Submit
         p#para
         nav#para2
@@ -30,4 +28,3 @@ html(lang="en")
     script.
       // Inject basic service data from server and populate dropdown
       const streamingServices = !{JSON.stringify(services)};
-      populateDropdown();

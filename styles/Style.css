@@ -260,3 +260,40 @@ button.genre {
     vertical-align: middle;
 }
   
+/* Service Info Page */
+.service-edit label,
+.genre-add label,
+.movie-add label {
+    color: white;
+}
+
+.service-edit h3,
+.genre-add h3,
+.movie-add h3 {
+    color: rgb(180, 119, 237);
+}
+
+#movies-section h3 {
+    color: rgb(180, 119, 237);
+}
+
+#movies-section table {
+    color: white;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#movies-section th {
+    color: rgb(240, 248, 16);
+    background-color: rgba(3, 3, 3, 0.8);
+    padding: 10px;
+}
+
+#movies-section td {
+    color: white;
+    padding: 8px;
+}
+
+#services-list a {
+    color: rgb(192, 85, 241);
+}

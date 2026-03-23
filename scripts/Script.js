@@ -351,3 +351,4 @@ function toggleMovie(movie) {
     renderOrderSummary();
 }
 
+populateDropdown();
